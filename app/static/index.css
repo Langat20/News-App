@@ -1,0 +1,47 @@
+ 
+.main {
+    display: flex;
+}
+.container-fluid {
+  display: flex;
+}
+.col-9 {
+  overflow-y: auto;
+  height: 90vh; /* NEW */
+}
+.nav {
+    background-color: black;
+}
+.navbar h3{
+    font-size: 24px;
+    color: white;
+}
+.collapse ul li a{
+    color: white;
+    font-size: 24px;
+    justify-content: space-between;
+}
+.collapse ul li a:hover{
+    color: red;
+}
+.nav-item {
+    margin-left: 30px;
+}
+#navbarText {
+    float: right;
+}
+.card-flex{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 5px 10px gray;
+}
+.image{
+    max-width: 60%;
+}
+.card-flex img {
+    width: 400px;
+}
+.card-body{
+    padding-left: 30px;
+}
