@@ -107,3 +107,20 @@ def get_category(cat_name):
 
     return get_cartegory_results
 
+def get_headlines():
+    '''
+    Method that gets the headlines from the category json
+    '''
+    get_headlines_url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey={}'.format(api_key)
+    print(get_headlines_url)
+    with urllib.request.urlopen(get_headlines_url) as url:
+        get_headlines_data = url.read()
+        get_headlines_response = json.loads(get_headlines_data)
+
+        get_headlines_results = None
+
+        if get_headlines_response['articles']:
+            get_headlines_list = get_headlines_response['articles']
+            get_headlines_results = process_articles_results(get_headlines_list)
+
+    return get_headlines_results
