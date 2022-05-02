@@ -70,3 +70,22 @@ def article_source(id):
 
     return article_source_results
 
+def process_articles_results(news):
+    '''
+    function that processes the json files of articles from the API
+    '''
+    article_source_results = []
+    for article in news:
+        author = article.get('author')
+        description = article.get('description')
+        time = article.get('publishedAt')
+        url = article.get('urlToImage')
+        image = article.get('url')
+        title = article.get ('title')
+
+        if url:
+            article_objects = Article(author,description,time,image,url,title)
+            article_source_results.append(article_objects)
+
+    return article_source_results
+
