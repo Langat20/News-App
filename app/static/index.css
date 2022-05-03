@@ -45,3 +45,213 @@
 .card-body{
     padding-left: 30px;
 }
+
+body{
+    font-family: 'Inconsolata', monospace;
+    overflow-x: hidden;
+    font-weight: 400;
+    color: #06113C;
+    background-color: bisque;
+}
+
+ul,li{
+    list-style: none;
+}
+
+/* Navbar styling */
+.navbar{
+    background-color: #b4c0f0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav{
+    float: right;
+    margin-bottom: 4%;
+
+}
+
+.link-nav-main{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #FF8C32;
+}
+
+.link-nav-main:hover{
+    color: #EEEEEE;
+}
+
+.link-nav{
+    color: white;
+    font-weight: 500;
+}
+
+.navbar-toggle{
+    background-color: #FF8C32;
+}
+
+.main-page{
+    padding: 1vh;
+}
+
+/* Search form styling */
+
+.main-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+
+#main-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    color: #EEEEEE;
+}
+
+.display-tech-articles{
+    margin-top: 1vh;
+    color: #EEEEEE !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tech-article-div{
+    padding: 2vh;
+}
+
+.other-tech-articles{
+    float: right;
+}
+
+.tech-article-title{
+    text-decoration: none;
+    color: #EEEEEE !important;
+}
+
+.tech-article-title:hover{
+    color: #EEEEEE !important;
+}
+
+.tech-article{
+    color: #EEEEEE !important;
+}
+
+.tech-article:hover{
+    font-size: 110%;
+}
+
+/* Styling for the main section */
+.card{
+    height: 35rem;
+    width: auto;
+    background-color: white;
+    margin-top: 2vh;
+}
+
+.card-img-top{
+    height: 50%;
+    width: 100%;
+}
+
+.main-section{
+    padding: 0 2vh;
+    background-color: #06113C;
+}
+
+.main-section-two{
+    background-color: #EEEEEE;
+    padding: 2vh;
+}
+
+.main-section-two-title{
+    font-weight: 800;
+}
+
+.main-section-two-card-body{
+    padding: 1vh;
+    height:50%;
+}
+
+.read-article{
+    font-weight: 700;
+    color: #06113C;
+}
+
+/* Sources styling */
+.main-section-one{
+    padding: 2vh;
+}
+
+.source-title{
+    font-weight: 500;
+    font-size: large;
+    color:#EEEEEE;
+    text-decoration: none;
+    padding-right: 5vh;
+}
+
+.source-title:hover{
+    font-weight: 500;
+    font-size: larger;
+    color:#FF8C32;
+}
+
+.source-heading{
+    color: #FF8C32;
+    font-weight: bolder;
+}
+
+.more-sources{
+    color: #FF8C32;
+    font-weight: bolder;
+}
+
+.sources-display-all{
+    padding: 1vh 6vh;
+    background-color: #06113C;
+}
+
+.display-source-articles{
+    padding: 1vh 6vh;
+}
+/* Pages styling */
+.article-page-img{
+    height: 12rem;
+    width: 20rem;
+}
+
+.article-card{
+    height: auto;
+}
+
+.page-articles-display{
+    padding: 0 2vh;
+}
+
+.main-articles{
+    background-color: #EEEEEE;
+    border-right: #06113C solid 2px;
+}
+
+.page-article-text{
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.page-article-title{
+    text-decoration: none;
+    color: #06113C;
+}
+
+.page-article-title:hover{
+    font-size: large;
+}
+
+.article-card-title{
+    font-weight: bold;
+}
+
+.article-main-headings{
+    font-family: 'Playfair Display', serif;
+}
+
